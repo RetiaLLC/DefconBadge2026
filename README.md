@@ -51,7 +51,7 @@ hardware/        KiCad 8 sources + schematic PDF
 ## Firmware in this repo
 
 - **[DOOM](firmware/doom/)** — the 1993 classic, natively, full speed. D-pad moves, A fires, GPIO0 switches weapons. Audio build plays SFX through the piezo.
-- **[Meshtastic](firmware/meshtastic/)** — off-grid LoRa mesh messaging with phone app support; standard and power-optimized builds.
+- **[Meshtastic](firmware/meshtastic/)** — off-grid LoRa mesh messaging with phone app support; standard, power-optimized, and experimental **color touch UI** builds.
 
 ## Building your own firmware
 
