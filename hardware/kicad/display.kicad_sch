@@ -1,0 +1,5092 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "24a2d923-cf2a-42f5-ac69-2b294427ce38")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Pack04_Split"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RN"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Pack04_Split"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "4 resistor network, parallel topology, split"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R network parallel topology isolated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Pack04_Split_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_1_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R1.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R1.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_2_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R2.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R2.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_3_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R3.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R3.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_Pack04_Split_4_1"
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "R4.1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "R4.2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "retia_component_library:lcd_MSP2402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.762 46.736 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MSP2402"
+				(at 6.35 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "retia_component_library:LCD_2_4in_PCB_MOUNTED"
+				(at -2.54 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.lcdwiki.com/2.4inch_SPI_Module_ILI9341_SKU:MSP2402?spm=a2g0o.detail.1000023.4.427dtrfKtrfKsV&file=2.4inch_SPI_Module_ILI9341_SKU:MSP2402"
+				(at 0.254 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.4inch SPI TFT LCD Screen with Touch Panel Driver IC"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2.4-inch color screen, TFT, 320X240 resolution, touch, SD card"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "lcd_MSP2402_1_1"
+				(polyline
+					(pts
+						(xy 13.97 10.16) (xy 0 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 22.86) (xy 0 22.86)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 45.72)
+					(end 13.97 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(text "SD CARD"
+					(at 12.954 5.08 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "TFT SCREEN"
+					(at 12.954 34.544 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "TOUCH"
+					(at 12.954 16.51 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 44.45 0)
+					(length 2.54)
+					(name "TFT_VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 21.59 0)
+					(length 2.54)
+					(name "T_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 19.05 0)
+					(length 2.54)
+					(name "T_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 16.51 0)
+					(length 2.54)
+					(name "T_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 13.97 0)
+					(length 2.54)
+					(name "T_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 11.43 0)
+					(length 2.54)
+					(name "T_IRQ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 8.89 0)
+					(length 2.54)
+					(name "SD_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 6.35 0)
+					(length 2.54)
+					(name "SD_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 3.81 0)
+					(length 2.54)
+					(name "SD_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "SD_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 41.91 0)
+					(length 2.54)
+					(name "TFT_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 39.37 0)
+					(length 2.54)
+					(name "TFT_CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 36.83 0)
+					(length 2.54)
+					(name "TFT_RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 34.29 0)
+					(length 2.54)
+					(name "TFT_DC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 31.75 0)
+					(length 2.54)
+					(name "TFT_MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 29.21 0)
+					(length 2.54)
+					(name "TFT_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 26.67 0)
+					(length 2.54)
+					(name "TFT_LED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 24.13 0)
+					(length 2.54)
+					(name "TFT_MISO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 165.1 154.94)
+		(uuid "24130361-c96b-48c5-8f03-d4454ae63661")
+	)
+	(no_connect
+		(at 157.48 154.94)
+		(uuid "bd58631d-53f2-4908-b951-62fb54c838b9")
+	)
+	(bus_entry
+		(at 228.6 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0887a6f0-2e62-44ba-87f4-59a21b43b732")
+	)
+	(bus_entry
+		(at 228.6 83.82)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193ec047-e764-43b6-bd2e-c3dd069f0ce0")
+	)
+	(bus_entry
+		(at 228.6 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1b7d7a-9dfe-4192-adee-fc0dac6989ae")
+	)
+	(bus_entry
+		(at 228.6 78.74)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d1703cd-f3cd-466a-be55-8ebb98e6bb6b")
+	)
+	(bus_entry
+		(at 228.6 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4708324e-3f29-47d5-b015-e96751f62f03")
+	)
+	(bus_entry
+		(at 228.6 73.66)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f017aa-74b7-4cc3-86c1-57866af22bed")
+	)
+	(bus_entry
+		(at 228.6 29.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ee14de2-85ae-4b80-949d-583eba2f1df4")
+	)
+	(bus_entry
+		(at 228.6 76.2)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8802328b-99b6-413b-b330-6d09c4a9e679")
+	)
+	(bus_entry
+		(at 228.6 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4798a1-b2cb-47cf-a68f-3f52e34fd1a2")
+	)
+	(bus_entry
+		(at 228.6 57.15)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "980df354-2e87-4859-bfaf-9062a8765516")
+	)
+	(bus_entry
+		(at 228.6 31.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c6d696-cf22-4a50-a610-b1cfc8a575ef")
+	)
+	(bus_entry
+		(at 228.6 26.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00adefe-ce3d-47ce-8f6c-cd462d92bd4a")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 157.48 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "008f5be2-fd99-4e9b-9317-a28757ef25af")
+	)
+	(wire
+		(pts
+			(xy 203.2 59.69) (xy 226.06 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d1f6d5-579d-4502-93f1-cd347306b441")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 168.91 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09a296fe-f98e-46ea-bf00-2eab00ad65c7")
+	)
+	(wire
+		(pts
+			(xy 80.01 110.49) (xy 114.3 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4779a7-3bd9-4040-80c0-f67c62b6dea4")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b5d455-2c1b-4ca2-9242-d88f979c077b")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 88.9 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8e160f-b228-41da-b91c-fae4da6b4b6d")
+	)
+	(wire
+		(pts
+			(xy 209.55 34.29) (xy 226.06 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d13fa1-2744-426f-9f31-75fe537d1e68")
+	)
+	(bus
+		(pts
+			(xy 228.6 83.82) (xy 228.6 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294fba12-b9e1-483a-abd6-380d91b27db3")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cea71c6-8585-4476-87e5-4d69d1a35caa")
+	)
+	(wire
+		(pts
+			(xy 203.2 57.15) (xy 226.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f4eb38b-9410-4df5-8d9e-19436e867a0a")
+	)
+	(bus
+		(pts
+			(xy 228.6 29.21) (xy 228.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3602223a-f930-4768-bc1b-4f5fb02ccc8f")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3668133f-3052-4ffa-82f9-cf4c9a83a9f5")
+	)
+	(wire
+		(pts
+			(xy 137.16 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e263e0-d0de-4557-b29d-890ec769e23f")
+	)
+	(wire
+		(pts
+			(xy 80.01 115.57) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39786b06-705a-4438-b4f7-bed3996708d0")
+	)
+	(wire
+		(pts
+			(xy 165.1 129.54) (xy 168.91 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b421c5-74a1-43ad-a3b0-4f2fd2e3e432")
+	)
+	(wire
+		(pts
+			(xy 83.82 76.2) (xy 83.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42aa8475-e97a-47a0-ac0a-04f9a33233ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 88.9) (xy 157.48 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45aab686-4840-419d-a131-aa5acb7ffdae")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463d33f0-da7e-4969-8a5f-6f2150bbf411")
+	)
+	(bus
+		(pts
+			(xy 228.6 25.4) (xy 228.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b8db6c-b574-417a-9310-42a45436fa55")
+	)
+	(wire
+		(pts
+			(xy 80.01 102.87) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdb3941-49ba-43e8-9e3c-1bddf5007d8c")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 168.91 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d040515-e70d-4e75-9255-8c5d068c4476")
+	)
+	(wire
+		(pts
+			(xy 142.24 129.54) (xy 157.48 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e904a46-51a8-4804-b338-7be0925bf42f")
+	)
+	(wire
+		(pts
+			(xy 80.01 125.73) (xy 101.6 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5177e586-3087-42bf-b181-629026ef6d4b")
+	)
+	(bus
+		(pts
+			(xy 228.6 50.8) (xy 228.6 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bbcbf1-751b-43cc-8abb-cd46a91db7d5")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 157.48 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a17318-5d71-45c4-83ce-6d5c94c69763")
+	)
+	(wire
+		(pts
+			(xy 203.2 78.74) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b53ef8e-5094-489a-ba20-360beb4fb5aa")
+	)
+	(bus
+		(pts
+			(xy 228.6 81.28) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce181c4-b70e-4c4c-9778-4d2e8c5ca6b7")
+	)
+	(bus
+		(pts
+			(xy 241.3 72.39) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616738d3-1a2b-4449-9d3a-b269df3fdf9e")
+	)
+	(bus
+		(pts
+			(xy 228.6 72.39) (xy 228.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6310942c-ec45-4c3d-bb64-db22a0a2d200")
+	)
+	(wire
+		(pts
+			(xy 80.01 107.95) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64654815-b65a-4218-8cb6-ee7767344aa0")
+	)
+	(wire
+		(pts
+			(xy 215.9 29.21) (xy 226.06 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9029e6-52bb-430a-89d3-1ffffd224d87")
+	)
+	(wire
+		(pts
+			(xy 203.2 54.61) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4cd019-f63a-4e99-973e-d2464e600e55")
+	)
+	(wire
+		(pts
+			(xy 110.49 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4455f3-eb8f-4ee1-b888-583238e36387")
+	)
+	(wire
+		(pts
+			(xy 137.16 139.7) (xy 157.48 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fea31fa-3719-41a8-99e9-401d3d5e0030")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 168.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77b6698d-ff3f-4116-9766-f997850f206d")
+	)
+	(bus
+		(pts
+			(xy 228.6 78.74) (xy 228.6 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c2fc65-2ff9-41f3-af92-6db3aa6cc490")
+	)
+	(wire
+		(pts
+			(xy 165.1 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79acffa1-3fb9-478b-a7c5-713ce47da074")
+	)
+	(wire
+		(pts
+			(xy 80.01 95.25) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b76720e-1168-4265-8aad-d0749af7f15a")
+	)
+	(wire
+		(pts
+			(xy 80.01 113.03) (xy 114.3 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7a6a65-818c-42b3-9aa5-764f3bb7f3e1")
+	)
+	(wire
+		(pts
+			(xy 203.2 81.28) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c5ef91-a1d8-4c2a-bb0b-30252143b52c")
+	)
+	(wire
+		(pts
+			(xy 165.1 68.58) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844ed0ff-8b91-4279-8743-c3013b818cc8")
+	)
+	(wire
+		(pts
+			(xy 209.55 34.29) (xy 209.55 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bc282f-6e91-4b9b-803b-46ecc9169441")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89dfd9ba-23ad-4f72-8244-631b3816e0bd")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ebc36e7-5880-47e1-8551-d2011b47d18e")
+	)
+	(wire
+		(pts
+			(xy 142.24 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920cb577-4044-4f41-92cd-393f4509e2fa")
+	)
+	(bus
+		(pts
+			(xy 228.6 54.61) (xy 228.6 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6047ec-29e3-4f69-b37a-e2acc67b6d8d")
+	)
+	(wire
+		(pts
+			(xy 142.24 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f3e34d9-b803-46d1-9f9b-72127438dd85")
+	)
+	(wire
+		(pts
+			(xy 80.01 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04ccfbd-010e-4d46-8bd3-76a625039a44")
+	)
+	(wire
+		(pts
+			(xy 137.16 149.86) (xy 157.48 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39f4152-4081-47dc-92a9-808017ae072d")
+	)
+	(wire
+		(pts
+			(xy 203.2 76.2) (xy 226.06 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53bdcbd-3ee9-43bc-8eab-4d06946f24ae")
+	)
+	(wire
+		(pts
+			(xy 142.24 124.46) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d589f4-4f44-497f-ad58-505e29b56274")
+	)
+	(wire
+		(pts
+			(xy 137.16 144.78) (xy 157.48 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c1f380-ac94-454c-9a6f-62e9f795078b")
+	)
+	(bus
+		(pts
+			(xy 241.3 25.4) (xy 228.6 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e9b3a7-f3de-4c8a-b0a5-8ba54e2b2e76")
+	)
+	(bus
+		(pts
+			(xy 228.6 26.67) (xy 228.6 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7b9243-ee5c-4744-a3c8-d964ce6a2a21")
+	)
+	(wire
+		(pts
+			(xy 80.01 87.63) (xy 88.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9dae0d-9f3e-48c6-88d5-0038cc728b41")
+	)
+	(wire
+		(pts
+			(xy 215.9 25.4) (xy 215.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12ac391-8eb1-4bb1-bedd-ae5c940c3b3a")
+	)
+	(bus
+		(pts
+			(xy 228.6 73.66) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e499b3-76cb-45fb-832a-fda02288c200")
+	)
+	(bus
+		(pts
+			(xy 241.3 50.8) (xy 228.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba37491a-65c6-418c-89b4-f04597db46e6")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7018d5-ca5d-42a2-b832-a20637eb54b7")
+	)
+	(wire
+		(pts
+			(xy 209.55 31.75) (xy 226.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1b643dc-eaf2-4e4c-a6ef-99673e94ad5e")
+	)
+	(wire
+		(pts
+			(xy 142.24 114.3) (xy 157.48 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c115fe-c7f4-4d45-bd67-9f787bd9b1c2")
+	)
+	(wire
+		(pts
+			(xy 203.2 88.9) (xy 226.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c88428e8-c253-474f-9c76-8dbb56ad2477")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 157.48 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd812431-1aee-4dc2-827a-56fe50da8a7d")
+	)
+	(wire
+		(pts
+			(xy 80.01 123.19) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb5d97e-c2c6-4e0f-ae95-60cc80fb607c")
+	)
+	(wire
+		(pts
+			(xy 80.01 92.71) (xy 88.9 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18131fb-1da6-453b-8db1-8d0d7e198cd8")
+	)
+	(wire
+		(pts
+			(xy 110.49 76.2) (xy 110.49 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25404b9-42d9-45b6-9eda-9dde24ab30b6")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d57b7d54-5f8b-412b-8627-26432934bf9d")
+	)
+	(wire
+		(pts
+			(xy 165.1 124.46) (xy 168.91 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5937329-e9db-4d06-8e24-dd349730388c")
+	)
+	(wire
+		(pts
+			(xy 83.82 82.55) (xy 80.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daed1977-8ac9-4449-91fb-d82287fc45bc")
+	)
+	(wire
+		(pts
+			(xy 80.01 120.65) (xy 101.6 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda57afa-e054-4d40-b0c7-21bf56484748")
+	)
+	(wire
+		(pts
+			(xy 203.2 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e055dac2-7d58-4c11-81d0-9a32827561fe")
+	)
+	(bus
+		(pts
+			(xy 228.6 52.07) (xy 228.6 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e481f5d2-efc7-401f-908f-1de7bd50462b")
+	)
+	(wire
+		(pts
+			(xy 165.1 149.86) (xy 168.91 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ac9b16-dc64-48a2-818c-83b33c4d6219")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 226.06 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65df988-c096-4db9-8b84-a0d9224c786a")
+	)
+	(wire
+		(pts
+			(xy 165.1 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c8880a-6a52-479e-8b6b-9d5b0430cea8")
+	)
+	(bus
+		(pts
+			(xy 228.6 76.2) (xy 228.6 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb8abea-dda1-4260-9da9-68a957b6cc75")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca9baff-43d1-4c64-9e90-9b27f10a2431")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 168.91 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee01f99c-b968-4fd3-bb4d-b7c58ea96ebf")
+	)
+	(wire
+		(pts
+			(xy 209.55 25.4) (xy 209.55 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2263ecb-04ee-42e9-a1f6-2b8b04281c76")
+	)
+	(wire
+		(pts
+			(xy 80.01 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e7a128-8438-4c09-8d28-581caaf5c9e8")
+	)
+	(wire
+		(pts
+			(xy 165.1 63.5) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff68c06d-a0d4-4310-aece-cffceefa19f4")
+	)
+	(label "ESP32_GPIO11_MOSI"
+		(at 203.2 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06941c9a-2161-41dc-afe9-9f823f590400")
+	)
+	(label "CS_TFT_SCREEN"
+		(at 88.9 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e11b4e9-f94e-4e7a-a6a5-4331132b4011")
+	)
+	(label "T_IRQ"
+		(at 114.3 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ad96a5b-b1a9-428e-bc27-089a2c15f748")
+	)
+	(label "ESP32_GPIO14"
+		(at 203.2 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f831eff-62aa-40a2-ba5d-e4e3606da38c")
+	)
+	(label "MOSI_TFT_SCREEN"
+		(at 168.91 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "223c8fba-e5b2-4a40-a5d7-176180862109")
+	)
+	(label "SD_CS"
+		(at 142.24 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "26ac8d5d-09be-4cf0-8217-7884a3958dba")
+	)
+	(label "ESP32_GPIO12_MISO"
+		(at 168.91 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d21d858-6961-4ec6-a522-503af98f0c9c")
+	)
+	(label "T_DIN(MISO)"
+		(at 114.3 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30a12bad-c732-4bb2-9ab7-984be60cd0af")
+	)
+	(label "CLK_TFT_SCREEN"
+		(at 88.9 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3428b246-672f-4911-baa2-6953bb07c796")
+	)
+	(label "ESP32_GPIO42"
+		(at 203.2 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a689164-10e6-42a8-95f6-8145ea4fe78b")
+	)
+	(label "T_DO(MOSI)"
+		(at 142.24 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e509987-6653-47da-b41a-e8b793a1e33f")
+	)
+	(label "GND"
+		(at 209.55 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40d34057-400d-416b-b862-e1c4415d77e9")
+	)
+	(label "ESP32_GPIO40"
+		(at 168.91 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416d42c5-9bcf-4303-9a66-fa1c55507b05")
+	)
+	(label "MISO_TFT_SCREEN"
+		(at 137.16 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41c5ef80-c507-4697-b0d2-3be508e3b7d3")
+	)
+	(label "ESP32_GPIO41"
+		(at 168.91 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "492eb177-f120-44b7-822c-ba3fc7b779fb")
+	)
+	(label "ESP32_GPIO14"
+		(at 168.91 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51804e4e-9ac8-40a7-8269-ebf2c8c0de33")
+	)
+	(label "+3.3V"
+		(at 209.55 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51eafd0d-8293-48b2-93d0-428ffdaf5ff2")
+	)
+	(label "SD_MISO"
+		(at 142.24 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "540c04c8-a69d-4140-86f6-1581a0d5927a")
+	)
+	(label "ESP32_GPIO39"
+		(at 203.2 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55ca1780-a4c9-4070-833e-90d364b03f23")
+	)
+	(label "ESP32_GPIO39"
+		(at 168.91 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58b470bf-e554-47fe-84d2-626db5b475e1")
+	)
+	(label "ESP32_GPIO13_SCK"
+		(at 168.91 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "649e2268-0df6-4755-bb5a-33d78982c6f9")
+	)
+	(label "CLK_TFT_SCREEN"
+		(at 168.91 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6750415c-b75c-45a9-99b6-99db7839c651")
+	)
+	(label "MOSI_TFT_SCREEN"
+		(at 137.16 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6acb853f-b4cf-4fb2-bd84-204e99f6a056")
+	)
+	(label "ESP32_GPIO47"
+		(at 168.91 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dc9c74a-74f6-4072-8bf3-9b5717ed5b99")
+	)
+	(label "ESP32_GPIO11_MOSI"
+		(at 168.91 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70719d9d-b8da-4451-bf84-ee721c88a000")
+	)
+	(label "SD_MOSI"
+		(at 101.6 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "734592b5-9c4d-4edf-84c6-20acb94ca7f3")
+	)
+	(label "ESP32_GPIO12_MISO"
+		(at 203.2 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aa6ca95-b062-4663-8c73-d46e159d9b9c")
+	)
+	(label "CLK_TFT_SCREEN"
+		(at 137.16 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b387e45-f663-4311-9554-1a11627d36ab")
+	)
+	(label "ESP32_GPIO11_MOSI"
+		(at 168.91 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80dfbd42-abd7-490d-bafc-bc4e50095b56")
+	)
+	(label "T_IRQ"
+		(at 137.16 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81139ba7-1cd6-45d5-a63d-e4e61db4d47f")
+	)
+	(label "SD_SCK"
+		(at 101.6 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "82fb0e6f-750c-4d5d-a69d-ab9dc5c30cc7")
+	)
+	(label "ESP32_GPIO13_SCK"
+		(at 168.91 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83b9d8a3-c9ee-4a1e-be0e-937ad0ced9c4")
+	)
+	(label "ESP32_GPIO41"
+		(at 203.2 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86de3752-a455-4a33-856f-55e40f3aed3e")
+	)
+	(label "ESP32_GPIO12_MISO"
+		(at 168.91 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92ba3d16-f6cc-466b-8596-3c490928c6f2")
+	)
+	(label "RESET_TFT_SCREEN"
+		(at 88.9 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94ac3710-7cdb-4d88-9fa0-1986d04c733f")
+	)
+	(label "{MCU_spi}"
+		(at 228.6 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a023722e-68cb-415a-b398-9bb4528eaefd")
+	)
+	(label "T_CLK"
+		(at 142.24 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a421a80a-f50a-4128-9839-b5403332907f")
+	)
+	(label "ESP32_GPIO13_SCK"
+		(at 203.2 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a83bd407-a316-41a8-857d-21d51970f9b2")
+	)
+	(label "T_DO(MOSI)"
+		(at 114.3 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b18ac7d3-df66-4516-8afc-e3377efc1e65")
+	)
+	(label "SD_MOSI"
+		(at 142.24 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b72051e6-2cbd-4099-83c8-cffe19822ecb")
+	)
+	(label "MISO_TFT_SCREEN"
+		(at 168.91 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7db03e1-ac72-48d0-805b-0cce60df3d9c")
+	)
+	(label "SD_CS"
+		(at 101.6 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b84546b9-a8c3-4f4b-b2fb-1868c46d607b")
+	)
+	(label "MOSI_TFT_SCREEN"
+		(at 88.9 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdc44c30-e65a-4bc5-9ee6-2457f3699966")
+	)
+	(label "RESET_TFT_SCREEN"
+		(at 137.16 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3ed39b6-9a81-4ab4-b6fc-8e3b49431e74")
+	)
+	(label "{MCU_gpio}"
+		(at 228.6 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4d93ffa-38c2-4fbb-8b28-b79741dd4dd5")
+	)
+	(label "SD_MISO"
+		(at 101.6 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c915bc8e-f96b-4a00-aef3-f8bb5a7537b8")
+	)
+	(label "{PWR}"
+		(at 228.6 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdf18f54-756f-40f2-b92d-c44bacf5c01c")
+	)
+	(label "T_CS"
+		(at 114.3 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d02811d7-71f4-4a90-922d-198773e61d60")
+	)
+	(label "ESP32_GPIO40"
+		(at 203.2 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0b97703-ce58-430f-8d56-ca2aa2294d90")
+	)
+	(label "DC_TFT_SCREEN"
+		(at 137.16 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0d0da67-267d-4eca-be0f-f2cb84eb0124")
+	)
+	(label "ESP32_GPIO47"
+		(at 203.2 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1a2c53a-db3f-4c5d-9ccd-d8ba7677d33b")
+	)
+	(label "MISO_TFT_SCREEN"
+		(at 88.9 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d87d719b-f3b7-4931-a841-1958c282b264")
+	)
+	(label "ESP32_GPIO42"
+		(at 168.91 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d97492cb-ac91-47b4-ad2c-f1752d65b2b1")
+	)
+	(label "+5V"
+		(at 215.9 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9bf1523-28a6-41e0-8e14-59d3e90021fd")
+	)
+	(label "T_DIN(MISO)"
+		(at 142.24 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8272fa-9d05-4abc-be20-ef5b8b63c8e6")
+	)
+	(label "CS_TFT_SCREEN"
+		(at 137.16 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebc1f8e2-2e4e-422a-8561-f2ee90260c9f")
+	)
+	(label "DC_TFT_SCREEN"
+		(at 88.9 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edf12f26-594c-42b5-8df4-5a6bc8829aed")
+	)
+	(label "SD_SCK"
+		(at 142.24 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee0cd308-d4a0-4ab1-b51a-3e1c6a419608")
+	)
+	(label "T_CS"
+		(at 142.24 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8aef83a-f446-4e94-b97c-da90352e8ee1")
+	)
+	(label "T_CLK"
+		(at 114.3 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcfd81ff-89a8-4d39-82e5-699b9ca4c590")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 241.3 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01eadcb8-d828-4111-97e4-2fa782516211")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 241.3 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f62840e-e4e7-401f-a13c-910d5686fa70")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 241.3 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c80a7788-7c8b-48d3-9be5-d3b1ce365355")
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 73.66 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19a5df72-6981-4f20-880c-6e46dd6a8ae6")
+		(property "Reference" "RN4"
+			(at 161.29 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe2")
+		)
+		(pin "2"
+			(uuid "dd94ddae-ada3-4273-82e2-d0500e5cde8e")
+		)
+		(pin "7"
+			(uuid "2a2bc26c-1b3c-4012-a9e2-b7fa08e8d052")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1f8")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733c")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b6")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f61")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed02")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 215.9 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22241867-b3a6-46f2-bde6-bf8b284c2e60")
+		(property "Reference" "#PWR033"
+			(at 215.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 215.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 215.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d596647b-39e6-49ea-8ec6-63652659b689")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 144.78 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25118beb-6f43-4a40-ad78-7488cdd71358")
+		(property "Reference" "RN7"
+			(at 161.29 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe3")
+		)
+		(pin "2"
+			(uuid "4255543f-3f54-4c3a-94b6-dfd161884e27")
+		)
+		(pin "7"
+			(uuid "7b32dccd-e59c-4ae1-89aa-3eca7244de7b")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1f9")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733d")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b7")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f62")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed03")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN7")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 104.14 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "292d4280-a524-4c02-80bf-cf161d55a592")
+		(property "Reference" "RN5"
+			(at 161.29 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe0")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176e6")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e30")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1f6")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733a")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b4")
+		)
+		(pin "5"
+			(uuid "67e88fc1-b019-4f19-a7f0-2c03187a7ef5")
+		)
+		(pin "4"
+			(uuid "1ba43ec8-aab5-4edd-8bfe-fe35a4d23442")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN5")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ebdd2c-2aa2-44ca-a063-017229c36814")
+		(property "Reference" "#PWR034"
+			(at 209.55 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e728e2-066e-4d9c-a3ad-0ce4ee568fbe")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 124.46 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "339a87e3-c651-40d5-bf56-775b94e144ee")
+		(property "Reference" "RN6"
+			(at 161.29 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 126.492 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe4")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176e9")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e33")
+		)
+		(pin "3"
+			(uuid "23d426ca-bc4f-400b-a939-21820f621e9e")
+		)
+		(pin "6"
+			(uuid "9db32473-6e20-42e3-9e02-4adc2f74e9f7")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b8")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f63")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed04")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN6")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 99.06 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39f7e41f-59c3-48e1-ae8a-a193643966e6")
+		(property "Reference" "RN5"
+			(at 161.29 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe5")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176ea")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e34")
+		)
+		(pin "3"
+			(uuid "472d95d2-5ecb-4893-8352-e7cc8c7f61ef")
+		)
+		(pin "6"
+			(uuid "257ae5b4-f0a7-4826-a62b-8e3632935bae")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b9")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f64")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed05")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b7c3c5c-be21-4f7e-aab5-9b4b7a59df4f")
+		(property "Reference" "RN4"
+			(at 161.29 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "54f3fea2-0952-472e-9cbd-8e3183b84e88")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176ec")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e36")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1fc")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257340")
+		)
+		(pin "1"
+			(uuid "2aebab65-8bf6-4761-a4fb-ae3df820b569")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f65")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed06")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46e0b413-b75e-4d48-af2d-f6543ce9bc14")
+		(property "Reference" "#PWR031"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc858b72-b115-4f14-96ac-eb1a381380d6")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 149.86 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "606d3036-7875-429f-b1dc-92d7aeb7be1f")
+		(property "Reference" "RN7"
+			(at 161.29 147.828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe6")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176eb")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e35")
+		)
+		(pin "3"
+			(uuid "488697dc-4f12-45c7-b22d-c7600a820770")
+		)
+		(pin "6"
+			(uuid "ffa24755-255f-4644-8eb9-9c5f0be002ad")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94ba")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f66")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed07")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN7")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 110.49 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664e6ee7-b32f-4c56-8fc6-fdfa0ed9306a")
+		(property "Reference" "#PWR032"
+			(at 110.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47dbbf51-7d80-46d0-adaa-849001781247")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67dbd422-a3c0-4c3a-88cc-4d4bf69cecb3")
+		(property "Reference" "RN6"
+			(at 161.29 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "93b71fc6-a100-40fd-a801-20fc06733613")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176ed")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e37")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1fd")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257341")
+		)
+		(pin "1"
+			(uuid "35796653-4f92-4462-a700-d3583cb25322")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f67")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed08")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 93.98 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efcc3f5-d562-4a92-a57c-cc83c950bc53")
+		(property "Reference" "RN5"
+			(at 161.29 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe7")
+		)
+		(pin "2"
+			(uuid "c41dcaf8-69d5-4b69-8256-0fdd733a9339")
+		)
+		(pin "7"
+			(uuid "95b74739-cc2c-4c69-96ed-8fe55eb9c669")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1fa")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733e")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94bb")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f68")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed09")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN5")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 209.55 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f001121-268b-45de-88cc-5124b158e375")
+		(property "Reference" "#PWR035"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 209.55 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 209.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc331b16-4ceb-4f64-a9cc-103668cd5151")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 68.58 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88f4c808-41d1-4529-91f8-929c75ff6885")
+		(property "Reference" "RN4"
+			(at 161.29 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe8")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176ee")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e38")
+		)
+		(pin "3"
+			(uuid "ac0f18f7-a161-4622-9538-8401a8ca5c5e")
+		)
+		(pin "6"
+			(uuid "dfe42f12-a03e-4d26-a890-3dd500823eb2")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94bc")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f69")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed0a")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 63.5 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d7ab0a2-4d71-4f64-813c-6908aa5914bf")
+		(property "Reference" "RN4"
+			(at 161.29 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe1")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176e7")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e31")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1f7")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733b")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94b5")
+		)
+		(pin "5"
+			(uuid "616507f9-8954-41e6-8b78-355e30fc4b2a")
+		)
+		(pin "4"
+			(uuid "0aee9275-7a65-4967-afea-022605802995")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN4")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba3eb32a-f881-4abc-ad6f-045613834243")
+		(property "Reference" "RN5"
+			(at 161.29 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "3969262d-2f6e-4d67-bea6-cd19515775e4")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176ef")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e39")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1fe")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257342")
+		)
+		(pin "1"
+			(uuid "21d4955d-fb29-411d-b071-b9793ab28127")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f6a")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed0b")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 119.38 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c44cf724-bfa5-4eb4-af27-9af1224ae7d3")
+		(property "Reference" "RN6"
+			(at 161.29 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbe9")
+		)
+		(pin "2"
+			(uuid "6359b225-0db1-43b1-bfa0-3aa51f3976fe")
+		)
+		(pin "7"
+			(uuid "512ed458-165e-4217-a572-7a59ed207e88")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1fb")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b25733f")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94bd")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f6b")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed0c")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7cce9c6-254f-4d73-84cd-171a975719d5")
+		(property "Reference" "RN7"
+			(at 161.29 137.668 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 141.732 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9edce193-b54d-4192-a811-f7eec15aa1af")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176f0")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e3a")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb1ff")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257343")
+		)
+		(pin "1"
+			(uuid "f80ead42-9053-47ac-8b6a-bbfc0ea9048f")
+		)
+		(pin "5"
+			(uuid "24219b96-2cfc-4d9d-91a6-a7e3df883f6c")
+		)
+		(pin "4"
+			(uuid "8e266ffb-a68d-410a-b60f-71c95951ed0d")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "retia_component_library:lcd_MSP2402")
+		(at 77.47 127 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e0501508-4ec3-4f76-b931-06405f3b67f3")
+		(property "Reference" "U3"
+			(at 62.23 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MSP2402"
+			(at 62.23 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "retia_component_library:LCD_2_4in_PCB_MOUNTED_THRU_HOLE"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.lcdwiki.com/2.4inch_SPI_Module_ILI9341_SKU:MSP2402?spm=a2g0o.detail.1000023.4.427dtrfKtrfKsV&file=2.4inch_SPI_Module_ILI9341_SKU:MSP2402"
+			(at 77.216 131.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.4inch SPI TFT LCD Screen with Touch Panel Driver IC"
+			(at 77.47 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "a81f5d98-3fb2-4ca4-9e39-44bc67469160")
+		)
+		(pin "15"
+			(uuid "c26ccd36-ca68-4589-bee2-062a48385760")
+		)
+		(pin "18"
+			(uuid "3cd01ca7-284a-4983-a328-b0509ef8576b")
+		)
+		(pin "9"
+			(uuid "b8ad1f63-1c08-4dc6-a5a7-525b03fdc929")
+		)
+		(pin "3"
+			(uuid "afebae62-aa9b-4ce5-8ec7-bf1eea7163a8")
+		)
+		(pin "17"
+			(uuid "3099c146-2e7d-4795-90bd-a8bc05719200")
+		)
+		(pin "14"
+			(uuid "7681dad2-7b0d-4792-b1d4-64faaee9af2d")
+		)
+		(pin "8"
+			(uuid "6b1e57e9-e7f8-4908-80e7-0c55b1ee65a8")
+		)
+		(pin "1"
+			(uuid "1c34f1fb-0a6f-461f-9997-9dc3a7970b6a")
+		)
+		(pin "12"
+			(uuid "d82bad5c-7c80-406e-b761-0d69a2a80335")
+		)
+		(pin "11"
+			(uuid "b27eb323-a370-4f6b-a5ec-67bf8dc7edc4")
+		)
+		(pin "2"
+			(uuid "4bd4088a-d47e-4244-bf64-ed60fe8b0d6e")
+		)
+		(pin "6"
+			(uuid "df47efc1-896a-4af0-b7cb-4fa171fc7665")
+		)
+		(pin "16"
+			(uuid "b4fa225f-bf1d-4365-8fb3-e7a3de32a996")
+		)
+		(pin "7"
+			(uuid "9cd3a846-90e5-41ac-8b98-03a007a28a7c")
+		)
+		(pin "4"
+			(uuid "1e7041e4-022f-4b0e-aa04-55faa3548214")
+		)
+		(pin "13"
+			(uuid "372d30ac-c6bf-44d7-8304-d2cd1b845a36")
+		)
+		(pin "5"
+			(uuid "21a57ab1-90e1-451d-9511-274f623d181d")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 83.82 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e447589b-c459-4589-914a-38b682e39a26")
+		(property "Reference" "#PWR030"
+			(at 83.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 83.82 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e72fd20-14c8-4560-b3f2-4164bf72f4f9")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 154.94 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e74ee212-52ea-4757-9b69-35edc4b6128b")
+		(property "Reference" "RN7"
+			(at 161.29 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbea")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176e8")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e32")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb200")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257344")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94be")
+		)
+		(pin "5"
+			(uuid "961c2d39-a7bd-4416-9752-bba8a3bade79")
+		)
+		(pin "4"
+			(uuid "e9e6f0b4-0d82-4c4c-943a-343670049b0e")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Pack04_Split")
+		(at 161.29 129.54 90)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9996643-1df1-4802-b401-6d044d4f5895")
+		(property "Reference" "RN6"
+			(at 161.29 127.762 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 161.29 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "retia_component_library:YAGEO_R_ARRAY_4_YC_FAM"
+			(at 161.29 131.572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4 resistor network, parallel topology, split"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C327053"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "YAGEO"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF PN" "YC164-JR-070RL"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "LCSC"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "13106bb7-d30b-4d10-a10f-38a5378ddbeb")
+		)
+		(pin "2"
+			(uuid "3e29779b-996f-4d9a-9cde-39d08ab176f1")
+		)
+		(pin "7"
+			(uuid "6627da3d-148a-4cdf-9d26-9dfe6db83e3b")
+		)
+		(pin "3"
+			(uuid "f938759a-0c36-45aa-abfb-5bd7cb5cb201")
+		)
+		(pin "6"
+			(uuid "221406ac-1d84-491a-be6c-67150b257345")
+		)
+		(pin "1"
+			(uuid "c3bb0283-384b-4d6f-a9e8-b0bd9fed94bf")
+		)
+		(pin "5"
+			(uuid "4fd51328-402b-44e7-a3d2-5b125f7ce79f")
+		)
+		(pin "4"
+			(uuid "84436ef4-d726-4cf8-9045-e20d225282db")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91/565e1076-9e97-4846-b2c4-9d792dcfccf9"
+					(reference "RN6")
+					(unit 4)
+				)
+			)
+		)
+	)
+)

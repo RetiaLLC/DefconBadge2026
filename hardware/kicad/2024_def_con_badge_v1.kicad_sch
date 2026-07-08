@@ -1,0 +1,1228 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 177.8 26.67) (xy 182.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c24e835-b8a6-40f6-9d8d-a0a6e8eba5d8")
+	)
+	(bus
+		(pts
+			(xy 50.8 52.07) (xy 55.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10916870-1067-4574-81c4-38f1b922f2e0")
+	)
+	(bus
+		(pts
+			(xy 177.8 59.69) (xy 182.88 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229b37be-763a-49f6-b83d-c5ebb741568d")
+	)
+	(bus
+		(pts
+			(xy 50.8 85.09) (xy 55.88 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26daa007-7ca1-4dae-83d6-23727e0bfef0")
+	)
+	(bus
+		(pts
+			(xy 50.8 80.01) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a6304c-49de-4d88-bb51-373f66543908")
+	)
+	(bus
+		(pts
+			(xy 114.3 57.15) (xy 119.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39fbfa79-c9ef-4240-a458-8b67df353dac")
+	)
+	(bus
+		(pts
+			(xy 114.3 54.61) (xy 119.38 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e6b68-224c-420d-827f-d01fc5ee4f11")
+	)
+	(bus
+		(pts
+			(xy 50.8 29.21) (xy 55.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45764ec8-66e5-4024-a661-0174d6bca6fd")
+	)
+	(bus
+		(pts
+			(xy 50.8 26.67) (xy 55.88 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e54852f-74c7-4bb5-8a81-7732afaf56b4")
+	)
+	(bus
+		(pts
+			(xy 177.8 80.01) (xy 182.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6251c3d0-ef02-4a09-bc83-b3473c8d8f9a")
+	)
+	(bus
+		(pts
+			(xy 114.3 59.69) (xy 119.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662c759a-02f6-49f5-a1d7-7a6ed93ec5b3")
+	)
+	(bus
+		(pts
+			(xy 114.3 62.23) (xy 119.38 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aed4d94-d55e-45f6-a3ef-f52f452c0b56")
+	)
+	(bus
+		(pts
+			(xy 50.8 34.29) (xy 55.88 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff23917-ac07-461c-9fbc-61830d5dd4c8")
+	)
+	(bus
+		(pts
+			(xy 114.3 26.67) (xy 119.38 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72c02778-65fe-4e07-a0ad-a7f6280216af")
+	)
+	(bus
+		(pts
+			(xy 114.3 77.47) (xy 119.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afcc34a-78c0-482e-91f1-619147e08578")
+	)
+	(bus
+		(pts
+			(xy 114.3 34.29) (xy 119.38 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad8eddc-b493-4478-bdbc-c6a6f2eb9bfc")
+	)
+	(bus
+		(pts
+			(xy 177.8 77.47) (xy 182.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93441df6-8755-4c36-bc00-e73b38ab7355")
+	)
+	(bus
+		(pts
+			(xy 50.8 39.37) (xy 55.88 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9795ed07-0fd6-49ed-a666-e54967a88df9")
+	)
+	(bus
+		(pts
+			(xy 50.8 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99be8e4f-f200-4f3e-be12-16dc0a9a896f")
+	)
+	(bus
+		(pts
+			(xy 114.3 52.07) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb7adcc-e461-4939-b6e6-20d3524679ec")
+	)
+	(bus
+		(pts
+			(xy 50.8 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3601d2-05c5-480a-af33-49259ff18b43")
+	)
+	(bus
+		(pts
+			(xy 177.8 52.07) (xy 182.88 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ae82ab-f48b-4545-9171-4983d2a8736a")
+	)
+	(bus
+		(pts
+			(xy 177.8 29.21) (xy 182.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a7b22c-d210-4a6d-9cdc-6a265089628f")
+	)
+	(bus
+		(pts
+			(xy 50.8 31.75) (xy 55.88 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4c5a45-a3b4-4f86-81fc-3cf0addb934b")
+	)
+	(bus
+		(pts
+			(xy 114.3 64.77) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea20df7-4574-4cae-b524-a6845d5efb11")
+	)
+	(bus
+		(pts
+			(xy 50.8 54.61) (xy 55.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0be806c-dee3-4f6d-b22c-755fa12ffe00")
+	)
+	(bus
+		(pts
+			(xy 177.8 54.61) (xy 182.88 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb88400c-59dd-455c-bacf-93576c0e7bad")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 182.88 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "055e7e7d-7a75-4ade-b231-ddfca700084b")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 182.88 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a00e801-df95-432d-9777-748ff7905702")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 182.88 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d1b1288-6e2a-4df0-aff7-373bdbdd3809")
+	)
+	(hierarchical_label "MCU_uart"
+		(shape bidirectional)
+		(at 119.38 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d2d45ee-2d3d-4e57-91f0-1b64cc3a4b71")
+	)
+	(hierarchical_label "MCU_i2c"
+		(shape bidirectional)
+		(at 55.88 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "234ceca8-b502-493a-adde-b79a11a7acf5")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 119.38 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "247f3273-7dd2-44ec-9cfc-e59128fe2ba4")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 55.88 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32653caf-c099-42e1-8fff-159a98750976")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 55.88 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37a7ce8e-e545-46e8-baa9-00d86c24a73f")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 182.88 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "579e83ca-dee4-45e2-9b26-e69f359f87d0")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 119.38 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "57e73a6b-0924-4826-90f4-55572a604500")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 55.88 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c952d06-f415-4eaf-860f-645546cd0dd3")
+	)
+	(hierarchical_label "MCU_i2c"
+		(shape bidirectional)
+		(at 119.38 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e896c26-04ab-42c0-b4e4-a1a2c873d360")
+	)
+	(hierarchical_label "MCU_uart"
+		(shape bidirectional)
+		(at 55.88 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77e93033-bc3b-4ed6-824d-87da6b19e1b4")
+	)
+	(hierarchical_label "MCU_usb"
+		(shape bidirectional)
+		(at 119.38 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7a79147a-6e73-4e54-a319-449cb7133c8a")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 55.88 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7eab5b9b-0c6d-450f-bd2e-d79b92994700")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 55.88 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84a8a387-4cb9-46d2-86f0-0101bed77c14")
+	)
+	(hierarchical_label "MCU_usb"
+		(shape bidirectional)
+		(at 55.88 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8923b97b-6638-4041-ae32-5c2c8a7b6d2d")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 119.38 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96194746-ef91-4532-b932-9753964bcca2")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 119.38 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5cc64df-3c19-4110-84d6-4e2ce83f2e43")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 119.38 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa16fbf1-80d8-49a2-b469-dd9805524f63")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 182.88 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa331db6-22d3-4df2-bbf6-468dd0e6b4de")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 55.88 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abfaa0aa-266b-468d-966e-363c2a960e05")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 182.88 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad44b873-cd59-49a8-8ff8-5ef47f4be82d")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 119.38 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7b29a6b-25bc-4eb3-875d-a68c518494f2")
+	)
+	(hierarchical_label "MCU_gpio"
+		(shape bidirectional)
+		(at 55.88 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e196d1ef-a605-43e7-b0fe-9e35b042f5bd")
+	)
+	(hierarchical_label "PWR"
+		(shape bidirectional)
+		(at 182.88 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9761c84-e885-4ee7-97f0-0fd7095aeaef")
+	)
+	(hierarchical_label "MCU_spi"
+		(shape bidirectional)
+		(at 55.88 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7e4c607-17c2-4e19-acd5-a72f4b55f0bd")
+	)
+	(sheet
+		(at 152.4 50.8)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "48d37689-9fa7-428e-ba5c-cbfb8016f73d")
+		(property "Sheetname" "lora_radio"
+			(at 152.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lora_radio.kicad_sch"
+			(at 152.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR" bidirectional
+			(at 177.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72ede038-4138-4654-9e1d-5d8bb84c46a2")
+		)
+		(pin "MCU_spi" bidirectional
+			(at 177.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b42c6f03-fec0-4461-af48-cdbf88af229f")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8e0fac4f-9cd2-4f7c-8081-9ae1abd4b4b0")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 76.2)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "565e1076-9e97-4846-b2c4-9d792dcfccf9")
+		(property "Sheetname" "display"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MCU_spi" bidirectional
+			(at 50.8 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "91c406ca-acc2-42c0-bf22-f1321c610b3e")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8511efb6-8d7c-4e70-bbf7-fdc69c588762")
+		)
+		(pin "PWR" bidirectional
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f97f834b-1137-4724-9b85-191b727fde36")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 50.8)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "640f5866-2485-4a9c-a937-9a45130561ef")
+		(property "Sheetname" "pcba_connectors"
+			(at 88.9 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pcba_connectors.kicad_sch"
+			(at 88.9 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MCU_uart" bidirectional
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7a2eaa5-07e3-4317-83a3-a07e17c9bf1d")
+		)
+		(pin "PWR" bidirectional
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24142f53-5844-449f-9a19-b3cb210f00d8")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d7bd87e6-bab8-4846-97e1-134f106632b8")
+		)
+		(pin "MCU_spi" bidirectional
+			(at 114.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b5cd72f-e996-435d-9ec7-201abeacc646")
+		)
+		(pin "MCU_usb" bidirectional
+			(at 114.3 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "44b85b19-a02b-4de6-ae29-2103a0346076")
+		)
+		(pin "MCU_i2c" bidirectional
+			(at 114.3 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "948c48fd-7fdb-4846-bf52-d3f85dddad14")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 25.4)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a971f56-ef09-479c-8a61-919fe46a1471")
+		(property "Sheetname" "buttons"
+			(at 152.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 152.4 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 177.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5fffaa64-6853-4f18-8d39-829aced3e197")
+		)
+		(pin "PWR" bidirectional
+			(at 177.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "daf0bcca-56a7-4a99-814e-9a9f2076917b")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 25.4)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88d2b98c-f429-45b6-bb32-ffe6a2ba7983")
+		(property "Sheetname" "micro_sd_storage"
+			(at 88.9 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "micro_sd_storage.kicad_sch"
+			(at 88.9 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR" bidirectional
+			(at 114.3 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "06a8c7d9-b2b8-4c50-9142-e9ae341cffa3")
+		)
+		(pin "MCU_spi" bidirectional
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c58600fb-9397-4764-b05b-d289fdc6e359")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 76.2)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9704353e-a520-43ed-8808-cee9705fe8dd")
+		(property "Sheetname" "on_board_neopixels"
+			(at 152.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "on_board_neopixels.kicad_sch"
+			(at 152.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR" bidirectional
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97091e57-cd19-4ee5-a3a5-3c4ec42c83a5")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 177.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4ad4a5de-7b3f-48d3-b4fe-9d1242998510")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0603ca1-c2d5-4da4-b876-5756bce0fd10")
+		(property "Sheetname" "buzzer"
+			(at 25.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buzzer.kicad_sch"
+			(at 25.4 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR" bidirectional
+			(at 50.8 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f3277b77-657b-4b89-a051-94690d7e39e6")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7a529f5f-c6b1-487b-a921-17daf36592e1")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4d7b822-2bda-4432-80f9-0b09194cbfa4")
+		(property "Sheetname" "mcu_block"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu_block.kicad_sch"
+			(at 25.4 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MCU_usb" bidirectional
+			(at 50.8 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58d53230-37ca-40b2-a5d3-43ae81bebdb0")
+		)
+		(pin "MCU_uart" bidirectional
+			(at 50.8 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dff304ee-fdf7-4bff-a602-2143a6e011d5")
+		)
+		(pin "MCU_spi" bidirectional
+			(at 50.8 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8d7d3cb-e121-4e40-95b7-bfdc74ac5447")
+		)
+		(pin "MCU_i2c" bidirectional
+			(at 50.8 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "10f98adc-5418-4aed-946f-0d6107a8ec43")
+		)
+		(pin "PWR" bidirectional
+			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9e49770f-7304-42ff-98eb-d2fd62547e91")
+		)
+		(pin "MCU_gpio" bidirectional
+			(at 50.8 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d789d182-526d-4309-8cc0-058ef980b30f")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 76.2)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc2125e8-1cc5-4afa-9e4e-bb1a3b985d2e")
+		(property "Sheetname" "power_conversion"
+			(at 88.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_conversion.kicad_sch"
+			(at 88.9 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWR" bidirectional
+			(at 114.3 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "43135c4a-a626-4a2e-9fd5-348711594185")
+		)
+		(instances
+			(project "2024_def_con_badge_v1"
+				(path "/fbf1d6f6-dfae-4ac1-8a02-5327e8c8cb91"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

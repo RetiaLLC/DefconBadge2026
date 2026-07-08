@@ -1,0 +1,13 @@
+# PlatformIO / ESP-IDF build output
+.pio/
+examples/*/sdkconfig.defcon-badge
+examples/*/dependencies.lock
+examples/*/CMakeLists.txt.user
+
+# OS noise
+.DS_Store
+
+# KiCad transients
+hardware/kicad/*.kicad_prl
+hardware/kicad/*-backups/
+hardware/kicad/fp-info-cache
