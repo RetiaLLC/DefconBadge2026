@@ -8,7 +8,7 @@ MCU: **ESP32-S3-WROOM-1** module — dual-core LX7 @ 240 MHz, **8 MB flash** (Gi
 
 | GPIO | Function | Direction | Notes |
 |-----:|----------|-----------|-------|
-| 0 | **BOOT button (SW2)** + off-board NeoPixel connector J8 (level-shifted to 5 V) | in / out | Strap pin: hold low through a reset → ROM download mode. Free as a button input after boot. |
+| 0 | **BOOT button (SW2**, silkscreen "GPIO_0"**)** + off-board NeoPixel connector J8 (level-shifted to 5 V) | in / out | Strap pin: hold low through a reset → ROM download mode. Free as a button input after boot. |
 | 1 | SAO connector GPIO1 (J5 pin 5) | any | |
 | 2 | **Green debug LED** (330 Ω) + SAO GPIO2 (J5 pin 6) | out | |
 | 3 | **LEFT button (SW3)** | in | Active-low, external 10 kΩ pull-up. Debounce caps C7–C12 are DNP (not populated). |
@@ -17,7 +17,7 @@ MCU: **ESP32-S3-WROOM-1** module — dual-core LX7 @ 240 MHz, **8 MB flash** (Gi
 | 6 | **RIGHT button (SW6)** | in | Active-low, 10 kΩ pull-up |
 | 7 | **B button (SW7)** | in | Active-low, 10 kΩ pull-up |
 | 8 | **A button (SW8)** | in | Active-low, 10 kΩ pull-up |
-| 9 | **Buzzer** (330 Ω → NMOS gate → PS1240P02CT3 piezo from +5 V, 1 kΩ parallel) | out | Square wave ≈4 kHz is loudest (piezo resonance). 1-bit sigma-delta works for sampled audio (quiet, crunchy). |
+| 9 | **Buzzer** (silkscreen "MIDI SPEAKER"; 330 Ω → NMOS gate → PS1240P02CT3 piezo from +5 V, 1 kΩ parallel) | out | Square wave ≈4 kHz is loudest (piezo resonance). 1-bit sigma-delta works for sampled audio (quiet, crunchy). |
 | 10 | **micro-SD card CS** (dedicated slot, 10 kΩ pull-up) | out | Shares the SPI bus. Verified working — see [sd-card.md](sd-card.md). |
 | 11 | **SPI MOSI** (shared bus) | out | Also: touch T_DO and module-SD "SD_MISO" land here — see quirks. |
 | 12 | **SPI MISO** (shared bus) | in | Also: touch T_DIN and module-SD "SD_MOSI" land here — see quirks. |

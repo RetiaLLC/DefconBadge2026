@@ -2,6 +2,10 @@
 
 Everything you need to hack on the Retia DEF CON badge: hardware docs, pinouts, flashable firmware (including **DOOM**), and example code to get you from "just unboxed" to writing your own firmware.
 
+![The badge running DOOM](images/badge-doom.jpg)
+
+*Yes, that's DOOM. Flash it in one command — see below.*
+
 ## What's on the badge
 
 | | |
