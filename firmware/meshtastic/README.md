@@ -18,7 +18,7 @@ esptool --chip esp32s3 --port <PORT> write-flash 0x0 meshtastic-2.7.23-standard.
 |---|---|
 | `meshtastic-2.7.23-standard.factory.bin` | Stock-behavior build for the badge variant (classic button-driven TFT UI). |
 | `meshtastic-2.7.23-lowpower.factory.bin` | Power-tuned build: idle draw cut ~39% (NeoPixels off by default, BLE off until enabled by phone), B button = Back/Cancel, 40 ms debounce, battery light-sleep available as opt-in (`--set power.is_power_saving true` — battery-only deployments; USB presence inhibits sleep). |
-| `meshtastic-2.7.23-mui-touch.factory.bin` | **Experimental color touch UI** (Meshtastic device-ui / LVGL, `touchscreen-build-wifi`). Full touchscreen operation — on-screen keyboard, tap navigation — despite the badge's crossed touch data lines (worked around with a calibrated bit-banged XPT2046 driver). D-pad + A/B also work as a keypad. Phone/client connectivity is **WiFi/TCP (port 4403), not Bluetooth** in this build — BLE is omitted so the UI stays on the home screen. Showcase build; the low-power build is the daily driver. |
+| `meshtastic-2.7.23-mui-touch.factory.bin` | **Experimental color touch UI** (Meshtastic device-ui / LVGL, `touchscreen-build-bleoff`). Full touchscreen operation out of the box — on-screen keyboard, tap navigation — despite the badge's crossed touch data lines (worked around with a calibrated bit-banged XPT2046 driver). D-pad + A/B also work as a keypad. Bluetooth is off in this build (it conflicts with the touch UI's home screen); phone/client connectivity is WiFi/TCP (port 4403). Showcase build; the low-power build is the daily driver. |
 
 A Meshtastic badge enumerates over USB with its MAC in the port name (e.g. `usbmodem744DBD216494`) — that's normal.
 
