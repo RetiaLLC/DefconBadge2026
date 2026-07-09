@@ -1,6 +1,6 @@
 # DEF CON Badge (2024) — ESP32-S3
 
-Everything you need to hack on the Retia DEF CON badge: hardware docs, pinouts, flashable firmware (including **DOOM** and a full **NES emulator**), and example code to get you from "just unboxed" to writing your own firmware.
+Everything you need to hack on the Retia DEF CON badge: hardware docs, pinouts, flashable firmware (including **DOOM**, a full **NES emulator**, **Meshtastic**, and **Reticulum**), and example code to get you from "just unboxed" to writing your own firmware.
 
 ![The badge running DOOM](images/badge-doom.jpg)
 
@@ -36,6 +36,7 @@ docs/            pinout.md ← START HERE · hardware.md · flashing.md · sd-ca
 firmware/
   doom/          DOOM shareware, audio + silent builds (flash & play)
   meshtastic/    Meshtastic 2.7.23, standard + low-power builds
+  reticulum/     RNode v1.85 — the badge as a Reticulum LoRa transceiver
 examples/
   hello-badge/   buttons + LED + buzzer in 100 lines (your first build)
   sd-test/       mount/format/read/write the micro-SD slot
@@ -52,6 +53,7 @@ hardware/        KiCad 8 sources + schematic PDF
 
 - **[DOOM](firmware/doom/)** — the 1993 classic, natively, full speed. D-pad moves, A fires, GPIO0 switches weapons. Audio build plays SFX through the piezo.
 - **[Meshtastic](firmware/meshtastic/)** — off-grid LoRa mesh messaging with phone app support; standard, power-optimized, and experimental **color touch UI** builds.
+- **[Reticulum / RNode](firmware/reticulum/)** — turns the badge into an [RNode](https://unsigned.io/rnode/): a host-controlled 915 MHz LoRa transceiver for the [Reticulum network stack](https://reticulum.network) (NomadNet, Sideband, MeshChat). Flash, provision with `rnodeconf`, done — hardware-verified against a Nibble Zero RNode. Full toolkit, source, and Nibble Zero builds live in **[RetiaLLC/NibbleReticulum](https://github.com/RetiaLLC/NibbleReticulum)**.
 - **[Anemoia NES](https://github.com/RetiaLLC/Anemoia-DefconBadge)** *(standalone repo)* — a full NES emulator: put `.nes` ROMs on the micro-SD card, browse and launch them on the badge, and play with the D-pad + A/B. Save states, chiptune audio through the piezo, and a one-button START/SELECT scheme (tap BOOT = START, hold = pause menu). Ready-to-flash image on the [release page](https://github.com/RetiaLLC/Anemoia-DefconBadge/releases/latest) (also attached to this repo's `anemoia-v1.0.0` release), plus a [curated list of legally-free homebrew games](https://github.com/RetiaLLC/Anemoia-DefconBadge/blob/main/GAMES.md) tested on the badge. Ported from [Shim06/Anemoia-ESP32](https://github.com/Shim06/Anemoia-ESP32).
 
 ## Building your own firmware
