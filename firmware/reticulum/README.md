@@ -15,7 +15,7 @@ Canonical repo (source, flash/provision scripts, Nibble Zero builds):
 
 ```bash
 pip install esptool rns
-esptool --chip esp32s3 --port <PORT> write-flash 0x0 rnode-1.85.factory.bin
+esptool --chip esp32s3 --port <PORT> write-flash 0x0 rnode-1.85-tft.factory.bin
 ```
 
 Then provision the EEPROM (one time — makes it a valid homebrew RNode):
@@ -30,7 +30,8 @@ Or let the automated script in NibbleReticulum do both:
 
 | File | What |
 |---|---|
-| `rnode-1.85.factory.bin` | RNode firmware v1.85, badge board (`BOARD_RETIA_DCBADGE`, headless). Flash at `0x0`. |
+| `rnode-1.85-tft.factory.bin` | **Recommended.** RNode v1.85 with the status screen on the badge's ILI9341 (mode, frequency, airtime, channel load, signal quality — 2.5x scale, full panel height). Flash at `0x0`. |
+| `rnode-1.85.factory.bin` | Same firmware, headless (display dark). Flash at `0x0`. |
 
 ## Use it with Reticulum
 
@@ -55,10 +56,10 @@ Verified on hardware: bidirectional badge ↔ Nibble Zero Reticulum link,
 ## Notes for builders
 
 - Source: [`RetiaLLC/RNode_Firmware` branch `retia-stable`](https://github.com/RetiaLLC/RNode_Firmware/tree/retia-stable),
-  target `make firmware-retia_dcbadge` (board ID `0x47`)
+  targets `make firmware-retia_dcbadge_tft` (display) / `make firmware-retia_dcbadge` (headless, board ID `0x47`)
 - `MODEM SX1276` only — the RFM95W's DIO1/BUSY are not routed
 - The badge's SPI pins are **not** the ESP32-S3 defaults; the driver needs the
   explicit `SPI.begin(13, 12, 11, 48)` (already handled on the branch)
-- TFT, touch, and SD chip-selects (47/14/39) are parked high at boot — this is
-  a **headless** build, the display stays dark
+- Touch and SD chip-selects (14/39) are parked high at boot; the radio driver
+  must never call `SPI.end()` on this board (shared display bus)
 - Status: green debug LED (GPIO 2) blinks RX/TX; first NeoPixel = status color
