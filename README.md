@@ -1,4 +1,4 @@
-# DEF CON Badge (2024) — ESP32-S3
+# DEF CON Badge (2026) — ESP32-S3
 
 Everything you need to hack on the Retia DEF CON badge: hardware docs, pinouts, flashable firmware (including **DOOM**, a full **NES emulator**, **Meshtastic**, **MeshCore**, and **Reticulum**), and example code to get you from "just unboxed" to writing your own firmware.
 
