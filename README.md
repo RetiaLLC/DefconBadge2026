@@ -2,6 +2,8 @@
 
 Everything you need to hack on the Retia DEF CON badge: hardware docs, pinouts, flashable firmware (including **DOOM**, a full **NES emulator**, **Meshtastic**, **MeshCore**, and **Reticulum**), and example code to get you from "just unboxed" to writing your own firmware.
 
+> **🚀 Start here: the [Badge Launcher v2 "Touch"](https://github.com/RetiaLLC/badge-launcher/releases/tag/v2.0.0)** — the flagship badge experience. One flash + one micro-SD card turns the badge into a pick-what-you-run device: two full-color **touch mesh messengers** (MeshCore + Meshtastic MUI), classic Meshtastic, a **Reticulum RNode**, an **NES emulator** with a 37-game homebrew library, and WLED — switchable from an on-badge menu in ~10 seconds, no computer needed. Comes with a `MESH-101.md` that gets two badges messaging over LoRa in minutes. Flash it from your browser at [scriptkitty.sh](https://scriptkitty.sh). *(Requires a FAT micro-SD card — true of launcher v1 too. Prefer DOOM resident in flash? [Launcher v1 "Classic"](https://github.com/RetiaLLC/badge-launcher/releases/tag/v1.0.0).)*
+
 ![The badge running DOOM](images/badge-doom.jpg)
 
 *Yes, that's DOOM. Flash it in one command — see below.*
