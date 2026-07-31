@@ -2,7 +2,9 @@
 
 A port of the open-source **[ESP32 Bus Pirate](https://github.com/KonradIT/ESP32-Bus-Pirate)** (geo-tp / KonradIT) to the badge — a multi-protocol hardware-hacking multitool driven from the badge TFT, USB-serial CLI, or a Wi-Fi web CLI.
 
-Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.0](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.0)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
+Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.1](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.1)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
+
+**New to it? Read the [beginner's guide](GUIDE.md)** — walks through every on-screen demo you can run on a bench.
 
 ## ⚠ Read before flashing — transmit- & attack-capable
 Alongside the benign bus tools this firmware can **transmit and attack**: Wi-Fi (scan/sniff/**deauth**/nmap), Bluetooth LE (scan/**spoof**/sniff), LoRa/Sub-GHz **transmit**, and bus/RF **jam**. It ships as a full-capability image — not a passive build.
@@ -11,11 +13,17 @@ Alongside the benign bus tools this firmware can **transmit and attack**: Wi-Fi 
 
 ## What works on the badge (verified on hardware)
 - **ILI9341 TFT UI** + **d-pad/A·B** nav; auto-boots to the USB-serial CLI.
-- **I²C** — bus scan and live register **monitor mirrored to the TFT**; `identify`/`read`/`dump`.
-- **`bme`** — decodes a **BME280** (temp/humidity/pressure) on screen and colours the ear NeoPixels by temperature.
-- **LED** — drives the 10 ear NeoPixels (fill / rainbow / chase / wave).
-- **Wi-Fi** and **BLE** scanners.
-- **LoRa** (on-board RFM95W / SX1276) — send / receive / sniff / RSSI, **TX + RX verified badge-to-badge** (new SX127x driver).
+- **LoRa on-screen suite** (on-board RFM95W / SX1276, new SX127x driver):
+  - **`waterfall`** — heat-map spectrum analyzer (blue→red), peak-hold.
+  - **`receive`** — packet sniffer: a rolling on-screen list (#, RSSI, length, ASCII).
+  - **`rssi`** — big live signal meter + held-peak marker.
+  - **`scan`** — peak-hold heat spectrum across a band.
+  - **`mesh` → Receive** — Meshtastic monitor, decoded packets on-screen; verified vs a **real Meshtastic node**. `send` for TX.
+  - **`meshcore`** — tunes to MeshCore's 915/SF10 PHY and sniffs (payloads AES-128, shown raw).
+  - Core `send`/`receive`/`sniff`/`setfreq` **TX + RX verified badge-to-badge**.
+- **I²C** — bus scan + live register **monitor on the TFT**; **`bme`** decodes a **BME280** (temp/humidity/pressure) on screen and colours the ear NeoPixels by temperature.
+- **LED** — 10 ear NeoPixels (fill / rainbow / chase / wave).
+- **Wi-Fi** and **BLE** scanners; **UART** sniff/autobaud.
 
 ## Wiring targets
 I²C on the **SAO header (J5)**: 3V3 / GND / SDA=GPIO35 / SCL=GPIO36. UART on J4 (TX 43 / RX 44). ⚠ The badge's Qwiic connectors are pin-reversed vs. the standard — use **J5**, not Qwiic.
@@ -27,4 +35,4 @@ esptool --chip esp32s3 --before default-reset --after hard-reset \
   write-flash --flash-mode dio --flash-freq 40m --flash-size 8MB 0x0 buspirate-badge.factory.bin
 ```
 
-`buspirate-badge.factory.bin` — SHA-256 `9d86bb7b9229dd5b36ede335f711a9949c9cc4ccefdd1b8f25daaa4c6bff75d2`
+`buspirate-badge.factory.bin` — SHA-256 `6c8542d9a56634e949eca6ff30826b39bda8ecbf594624579013116f0a930046`
