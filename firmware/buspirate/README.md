@@ -2,7 +2,7 @@
 
 A port of the open-source **[ESP32 Bus Pirate](https://github.com/KonradIT/ESP32-Bus-Pirate)** (geo-tp / KonradIT) to the badge — a multi-protocol hardware-hacking multitool driven from the badge TFT, USB-serial CLI, or a Wi-Fi web CLI.
 
-Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.1](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.1)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
+Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.2](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.2)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
 
 **New to it? Read the [beginner's guide](GUIDE.md)** — walks through every on-screen demo you can run on a bench.
 
@@ -35,4 +35,4 @@ esptool --chip esp32s3 --before default-reset --after hard-reset \
   write-flash --flash-mode dio --flash-freq 40m --flash-size 8MB 0x0 buspirate-badge.factory.bin
 ```
 
-`buspirate-badge.factory.bin` — SHA-256 `6c8542d9a56634e949eca6ff30826b39bda8ecbf594624579013116f0a930046`
+`buspirate-badge.factory.bin` — SHA-256 `4c87990b5b56fe5b4007f013dbbde34513b6656ed42f592d1bef9c74482c860f`

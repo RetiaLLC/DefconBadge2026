@@ -44,6 +44,15 @@
 You can also drive the whole CLI **from a browser** (no terminal app) or **over Wi-Fi** —
 see [Drive it wirelessly](#wi-fi).
 
+### Where things are
+
+![Badge map — SAO port, d-pad + A/B/RESET buttons, 915 MHz antenna, SPI accessory header](images/badge-map.png)
+
+The bits this guide uses: the **SAO port** (top-right, labelled `+3.3V / SDA / SCL /
+GPIO_1 / GPIO_2 / GND`) for I²C add-ons; the **d-pad + A** for the boot menu; **A / B /
+RESET** buttons; the **915 MHz antenna** pad for LoRa; and the **SPI accessory** header.
+The **Qwiic (J6)** I²C connector is on the back.
+
 ---
 
 ## LoRa demos (the stars) ⭐
@@ -89,16 +98,19 @@ Meshtastic — different frequency/spreading-factor, can't monitor both at once.
 
 ## I²C sensor dashboard
 
-The best hands-on demo if you have a sensor. Wire it to the badge's **Qwiic connector**
-(the white JST) — match the sensor's **3V3 · GND · SDA · SCL** to the badge:
+The best hands-on demo if you have a sensor. Wire it to the badge's **Qwiic connector
+`J6`** (the white JST) — match the sensor's **3V3 · GND · SDA · SCL** to the badge:
 
-![Wiring a BME280 I²C sensor into the badge's Qwiic connector](images/i2c-wiring.jpg)
+![Wiring a BME280 I²C sensor into the badge's J6 Qwiic connector](images/i2c-wiring.jpg)
 
-> ⚠️ **The Qwiic connector is pin-reversed vs a standard Qwiic/STEMMA cable** (see
+> ⚠️ **`J6` (Qwiic) is pin-reversed vs a standard Qwiic/STEMMA cable** (see
 > [`docs/hardware-errata.md`](../../docs/hardware-errata.md)) — a plug-and-play cable
-> will be backwards. **Hand-wire the four lines to match** the badge's silkscreen
-> (`+3.3V / SDA / SCL / GND`), like the photo above. The **SAO header J5** carries the
-> same I²C as an alternative: 1 = 3V3, 2 = GND, 3 = SDA (GPIO35), 4 = SCL (GPIO36).
+> lands power/ground scrambled. **Hand-wire the four lines to match** the badge's
+> silkscreen (`+3.3V / SDA / SCL / GND`), exactly like the photo above. Either I²C
+> connector works — **`J5` (the SAO port)** carries the same bus (see below).
+
+The badge's whole I²C bus is **SDA = GPIO35, SCL = GPIO36** — those are the default
+`mode i2c` pins, and they're wired to *both* `J6` (Qwiic) and `J5` (the SAO port).
 
 ```
 mode i2c
@@ -117,6 +129,23 @@ Decodes the sensor **onto the badge**: a two-column **BME280** dashboard with **
 (e.g. `T 24.9 C · H 49 %RH · P 1001 hPa`) plus raw registers — and **the ear LEDs change
 color with the temperature.** Warm the sensor with your fingers and watch both move.
 `monitor <addr>` mirrors live register reads to the screen. ENTER stops.
+
+---
+
+## Talk to an SAO on the SAO port
+
+The **SAO port (`J5`)** — the standard 1×6 add-on header — is wired straight to the same
+I²C bus (**SDA GPIO35 · SCL GPIO36**) plus two GPIOs (**GPIO1, GPIO2**, on pins 5 & 6).
+So you can interrogate anything plugged into it with **no extra wiring**:
+
+- **I²C parts on the SAO** (sensors, EEPROMs, LED drivers): `mode i2c` → `scan` finds the
+  address, then `read` / `dump` / `bme` / `monitor` — same as the sensor dashboard above.
+- **The SAO's two GPIO lines** (GPIO1, GPIO2): scope them on the badge screen with
+  `logic 1` / `logic 2` (digital waveform) or `analogic 1` (live voltage), or poke them in
+  `mode dio` (`read 1`, `measure 1`).
+
+Great for reverse-engineering a mystery SAO: **scan its I²C address, then scope its GPIO
+pins** — all from the badge, no laptop.
 
 ---
 
@@ -170,13 +199,14 @@ lookup AA:BB:CC:DD:EE:FF    # MAC -> vendor  (requires connect first)
 **Drive the badge from a browser or over Wi-Fi:**
 
 - **Easiest — browser Web Serial.** Plug in over USB and use the terminal at
-  [catbadge.online](https://catbadge.online) — no app, no Wi-Fi.
+  [catbadge.online](https://catbadge.online) — no app, no Wi-Fi. Works in **Firefox**,
+  Chrome, or Edge (Firefox added Web Serial support, so it's no longer Chromium-only).
 - **Over Wi-Fi (no cable) — the web CLI is a *boot mode*, not a serial command.**
-  **Reset the badge, then within 3 seconds press the board button** — *hold* = Wi-Fi
-  **Hotspot**, short press = join a saved network. Watch the status LED (blue = no saved
-  creds, white = connecting, green = ready). In Hotspot mode the badge makes its own
-  Wi-Fi (`ESP32-Bit-Pirate`) and serves the **entire CLI as a captive-portal web page** —
-  connect and open **192.168.4.1** in a browser.
+  **Reset the badge** — a terminal-type menu appears for ~6 s: **d-pad LEFT/RIGHT** to
+  highlight **WiFi Hotspot**, then press **A** to select (no input defaults to USB). The
+  badge makes its own Wi-Fi network **`ESP32-Bit-Pirate`** (password `readytoboard`) and
+  serves the **entire CLI as a web page** — connect to it and open **192.168.4.1** in any
+  browser (verified: the badge serves the CLI page to a connected client).
 
 > The plain `ap <ssid> <password>` serial command just makes a bare access point (no CLI) —
 > it's for bridging, not the web UI. To serve the web CLI you must **boot** into a Wi-Fi mode.
