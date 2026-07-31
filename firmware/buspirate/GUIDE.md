@@ -167,14 +167,19 @@ connect <SSID> <password>   # join a network (needed for the online tools below)
 lookup AA:BB:CC:DD:EE:FF    # MAC -> vendor  (requires connect first)
 ```
 
-**Drive the badge over Wi-Fi (no cable):**
-```
-ap MyBadge badgepass123    # start the badge's own access point (ssid + password)
-webui                      # serve the browser CLI
-```
-Connect your phone/laptop to the badge's Wi-Fi, open the badge's address
-(**192.168.4.1**) in a browser, and type the same commands from anywhere. (There's also
-a browser **Web Serial** flasher/terminal at [catbadge.online](https://catbadge.online).)
+**Drive the badge from a browser or over Wi-Fi:**
+
+- **Easiest — browser Web Serial.** Plug in over USB and use the terminal at
+  [catbadge.online](https://catbadge.online) — no app, no Wi-Fi.
+- **Over Wi-Fi (no cable) — the web CLI is a *boot mode*, not a serial command.**
+  **Reset the badge, then within 3 seconds press the board button** — *hold* = Wi-Fi
+  **Hotspot**, short press = join a saved network. Watch the status LED (blue = no saved
+  creds, white = connecting, green = ready). In Hotspot mode the badge makes its own
+  Wi-Fi (`ESP32-Bit-Pirate`) and serves the **entire CLI as a captive-portal web page** —
+  connect and open **192.168.4.1** in a browser.
+
+> The plain `ap <ssid> <password>` serial command just makes a bare access point (no CLI) —
+> it's for bridging, not the web UI. To serve the web CLI you must **boot** into a Wi-Fi mode.
 
 > The `deauth`, `spam`, `spoof`, `flood` commands here are transmit/attack — **authorized
 > use only**, not part of this guide.
