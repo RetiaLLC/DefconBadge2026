@@ -89,10 +89,16 @@ Meshtastic — different frequency/spreading-factor, can't monitor both at once.
 
 ## I²C sensor dashboard
 
-The best hands-on demo if you have a sensor. **Wire it to the SAO header (J5)** —
-**not** the Qwiic/STEMMA connectors (they're pin-reversed on this board rev, see
-[`docs/hardware-errata.md`](../../docs/hardware-errata.md)). J5: **1 = 3V3, 2 = GND,
-3 = SDA (GPIO35), 4 = SCL (GPIO36).**
+The best hands-on demo if you have a sensor. Wire it to the badge's **Qwiic connector**
+(the white JST) — match the sensor's **3V3 · GND · SDA · SCL** to the badge:
+
+![Wiring a BME280 I²C sensor into the badge's Qwiic connector](images/i2c-wiring.jpg)
+
+> ⚠️ **The Qwiic connector is pin-reversed vs a standard Qwiic/STEMMA cable** (see
+> [`docs/hardware-errata.md`](../../docs/hardware-errata.md)) — a plug-and-play cable
+> will be backwards. **Hand-wire the four lines to match** the badge's silkscreen
+> (`+3.3V / SDA / SCL / GND`), like the photo above. The **SAO header J5** carries the
+> same I²C as an alternative: 1 = 3V3, 2 = GND, 3 = SDA (GPIO35), 4 = SCL (GPIO36).
 
 ```
 mode i2c
