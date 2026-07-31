@@ -36,3 +36,11 @@ esptool --chip esp32s3 --before default-reset --after hard-reset \
 ```
 
 `buspirate-badge.factory.bin` — SHA-256 `4c87990b5b56fe5b4007f013dbbde34513b6656ed42f592d1bef9c74482c860f`
+
+## Known limitation — Wi-Fi web CLI terminal
+The badge **serves** the web CLI page over Wi-Fi (hotspot or client), but the interactive
+terminal uses a **single-client WebSocket** that is unreliable in real browsers (especially
+phones): output can fail to return and the page reconnect-loops with *"Connection lost."*
+This is an upstream `/ws` issue; two fixes were attempted (socket headroom; async send via
+`httpd_queue_work`) without fully resolving it. **Use USB serial or browser Web Serial
+([catbadge.online](https://catbadge.online)) for reliable interactive use.**
