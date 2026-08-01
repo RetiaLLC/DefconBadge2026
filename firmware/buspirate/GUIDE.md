@@ -206,10 +206,9 @@ lookup AA:BB:CC:DD:EE:FF    # MAC -> vendor  (requires connect first)
   highlight **WiFi Hotspot**, then press **A** to select (no input defaults to USB). The
   badge makes its own Wi-Fi network **`ESP32-Bit-Pirate`** (password `readytoboard`) and
   serves the CLI web page at **192.168.4.1**.
-  > ⚠️ **Experimental.** The page serves reliably, but the interactive terminal uses a
-  > **single-client WebSocket** — on phones and browsers that open extra/reconnecting
-  > connections it can thrash into a "Connection lost" loop. For dependable browser use,
-  > prefer **Web Serial over USB** (above). A desktop browser on the hotspot works best.
+  > The interactive terminal works from any browser, phones included — type a command and
+  > the output streams back live. (The earlier "Connection lost" flakiness is fixed.) Web
+  > Serial over USB (above) is still there if you'd rather stay on a cable.
 
 > The plain `ap <ssid> <password>` serial command just makes a bare access point (no CLI) —
 > it's for bridging, not the web UI. To serve the web CLI you must **boot** into a Wi-Fi mode.

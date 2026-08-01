@@ -2,7 +2,7 @@
 
 A port of the open-source **[ESP32 Bus Pirate](https://github.com/KonradIT/ESP32-Bus-Pirate)** (geo-tp / KonradIT) to the badge — a multi-protocol hardware-hacking multitool driven from the badge TFT, USB-serial CLI, or a Wi-Fi web CLI.
 
-Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.2](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.2)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
+Source & release: **[RetiaLLC/ESP32-Bus-Pirate @ badge-v1.2.1](https://github.com/RetiaLLC/ESP32-Bus-Pirate/releases/tag/badge-v1.2.1)** (branch `retia-badge-port`, all badge support gated behind `-DDEVICE_RETIA_BADGE`).
 
 **New to it? Read the [beginner's guide](GUIDE.md)** — walks through every on-screen demo you can run on a bench.
 
@@ -35,12 +35,13 @@ esptool --chip esp32s3 --before default-reset --after hard-reset \
   write-flash --flash-mode dio --flash-freq 40m --flash-size 8MB 0x0 buspirate-badge.factory.bin
 ```
 
-`buspirate-badge.factory.bin` — SHA-256 `4c87990b5b56fe5b4007f013dbbde34513b6656ed42f592d1bef9c74482c860f`
+`buspirate-badge.factory.bin` — SHA-256 `695a924b2502d7e25b8057c3875d239c373009075f11e1cfee5f0772d6851cc6`
 
-## Known limitation — Wi-Fi web CLI terminal
-The badge **serves** the web CLI page over Wi-Fi (hotspot or client), but the interactive
-terminal uses a **single-client WebSocket** that is unreliable in real browsers (especially
-phones): output can fail to return and the page reconnect-loops with *"Connection lost."*
-This is an upstream `/ws` issue; two fixes were attempted (socket headroom; async send via
-`httpd_queue_work`) without fully resolving it. **Use USB serial or browser Web Serial
-([catbadge.online](https://catbadge.online)) for reliable interactive use.**
+## Wi-Fi web CLI terminal
+Boot into **WiFi Hotspot** or **WiFi Connect** and the badge serves an interactive web
+terminal — type commands from any browser (phone included), no cable needed. The earlier
+"Connection lost" flakiness is **fixed**: the badge now binds its reply socket from the
+incoming WebSocket frame (the handshake binding didn't stick on this ESP-IDF), sends
+complete (non-fragmented) frames, and reserves enough HTTP handlers for every route.
+USB serial and browser Web Serial ([catbadge.online](https://catbadge.online)) remain
+available for cabled use.
